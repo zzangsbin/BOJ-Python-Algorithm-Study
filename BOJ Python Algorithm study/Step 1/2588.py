@@ -1,0 +1,10 @@
+A=int(input())
+B=int(input())
+F=A*(B%10)
+S=A*((B//10)%10)
+T=A*(B//100)
+sum=F+10*S+100*T
+print(F)
+print(S)
+print(T)
+print(sum)
