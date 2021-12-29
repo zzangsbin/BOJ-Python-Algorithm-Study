@@ -3,8 +3,9 @@
 
 numbers = []
 for i in range (9):
-    num = int(input())
-    numbers.append(num)
+    # num = int(input())
+    # numbers.append(num)
+    numbers.append(int(input()))
 
 order = 0
 
