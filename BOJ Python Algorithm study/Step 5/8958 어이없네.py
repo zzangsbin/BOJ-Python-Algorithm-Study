@@ -5,9 +5,9 @@ for i in range(number): # test의 한 원소 즉 XXO... 하나에 대해서
         count = 0
         for k in i:# XXO... 의 각 문자열에 대해서
             for t in k:
-                 if t=='O':
-                    count+=1
-                    sum+=count
-                 elif t=='X':
+                 if t == 'O':
+                    count += 1
+                    sum += count
+                 elif t == 'X':
                     count = 0
         print(sum)

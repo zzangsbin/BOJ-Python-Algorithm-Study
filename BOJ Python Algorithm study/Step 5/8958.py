@@ -1,6 +1,6 @@
 number = int(input())
 test = []
-for n in range (number):
+for n in range(number):
     test.append(input())
 
 for i in test: # test의 한 원소 즉 XXO... 하나에 대해서
@@ -13,9 +13,9 @@ for i in test: # test의 한 원소 즉 XXO... 하나에 대해서
             # 리스트 초기화 잊지마라!!!!!!!!!!!!!!!!!!!!!!!!
             # 아니면 OXXO,OXO 따로따로인데 OXXOOXO처럼 처리됨
         for t in list:
-             if t=='O':
-                count+=1
-                sum+=count
-             elif t=='X':
+             if t == 'O':
+                count += 1
+                sum += count
+             elif t == 'X':
                 count = 0
         print(sum)

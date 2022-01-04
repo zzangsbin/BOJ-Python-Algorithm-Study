@@ -1,20 +1,20 @@
 letter = input()
 Big = letter.upper()
-all = list(set(Big))
+delete_overlap = list(set(Big))
 
 A = []
 
-for i in all:
+for i in delete_overlap:
     count = 0
     for k in Big:
-        if i==k:
-            count+=1
+        if i == k:
+            count += 1
     A.append(count)
 
-for t in range (len(A)):
-    if A.count(max(A))>=2:
+for t in range(len(A)):
+    if A.count(max(A)) >= 2:
         print('?')
         break
     else:
-        if A[t]==max(A):
-            print(all[t])
+        if A[t] == max(A):
+            print(delete_overlap[t])

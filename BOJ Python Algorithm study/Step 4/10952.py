@@ -1,8 +1,8 @@
-A=1
-B=1
+A = 1
+B = 1
 
-while (A!=0 and B!=0):
+while A != 0 and B != 0:
     A, B = map(int, input().split())
-    if (A==0 and B==0):
+    if A == 0 and B == 0:
         break
-    print(A+B)
+    print(A + B)

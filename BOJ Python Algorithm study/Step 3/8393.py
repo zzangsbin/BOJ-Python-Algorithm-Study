@@ -1,7 +1,7 @@
 n = int(input())
-sum = 0
+sum_num = 0
 
-for i in range (n):
-    sum+=(i+1)
+for i in range(n):
+    sum_num += (i + 1)
 
-print(sum)
+print(sum_num)

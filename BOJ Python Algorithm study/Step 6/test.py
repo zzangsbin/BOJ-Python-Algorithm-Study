@@ -5,6 +5,6 @@
 # sum = (객체:iterable, 숫자)
 
 a = [1, 2, 3]
-b, c, d= map(float, a)
+b, c, d = map(float, a)
 print(b)
 print(c)
