@@ -1,4 +1,5 @@
 L = input()
-l = string.lower(L)
+l = L.lower()
 
 l = list(set(l))
+print(l)
